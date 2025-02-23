@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+section{
+	position: relative;
+}
+.moviePic{
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	border: 10px solid #ccc;
+}
+.movieDetail{
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
